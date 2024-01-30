@@ -28,6 +28,6 @@ services:
     env_file: .env
     volumes:
       - static_volume:/staticfiles/
-      - media_volume:/media  # Подключаем volume media к gateway
+      - media_volume:/media
     ports:
       - 9000:80
